@@ -20,7 +20,7 @@ class VoiceChangerSkill(OVOSSkill):
         self.speak_dialog("activating_voice_changer")
         try:
             self.voice_changer_process = subprocess.Popen(
-                ["voice-up"],
+                ["sudo", "voice-up"],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True
