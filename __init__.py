@@ -20,7 +20,7 @@ class VoiceChangerSkill(OVOSSkill):
         self.speak_dialog("activating_voice_changer")
         try:
             self.voice_changer_process = subprocess.Popen(
-                ["/usr/bin/sox", "--buffer", "2048", "-t", "alsa", "default", "-t", "alsa", "hw:3,0", "noisered", "noise.prof", "0.41", "vol", "0.5", "pitch", "-600", "overdrive", "30", "20", "echo", "0.8", "0.88", "60", "0.4", "chorus", "0.7", "0.9", "55", "0.4", "0.252", "-t", "tremolo", "70", "100", "pitch", "370"],
+                ["voice-up"],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True
