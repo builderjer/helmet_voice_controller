@@ -16,7 +16,7 @@ and when Short Cirkuitz says "Disable Voice modulator" it turns off.
 
 ## Credits
 
-- [Cirkuitbreaker-env](https://cirkuitbreaker-env.systems)]
+- [[Cirkuitbreaker-env](https://cirkuitbreaker-env.systems)]
 
 ## Category
 
